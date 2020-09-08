@@ -296,16 +296,29 @@ nav {
   position: relative;
 }
 
-.testimonial-text-box i {
+.quote-icon1 {
   position: absolute;
-  top: -8rem;
-  left: 50%;
-  transform: translateX(-50%);
+  top: -10rem;
+  left: 25%;
+  transform: translateX(-75%);
+  font-size: 8rem;
+  color: #ffd571;
+  opacity: .5;
+  z-index: -1;
+  transform: rotate(180deg)
+}
+
+.quote-icon2 {
+  position: absolute;
+  top: 10rem;
+  left: 75%;
+  transform: translateX(-25%);
   font-size: 8rem;
   color: #ffd571;
   opacity: .5;
   z-index: -1;
 }
+
 
 .testimonial-customer img {
   width: 10rem;
